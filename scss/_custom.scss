@@ -77,21 +77,21 @@ body {
             border: none;
           }
         }
-
+        .button {
+          margin-left: 10px;
+          text-align: center;
+          padding: 15px;
+          font-weight: 600;
+          border-radius: 50px;
+          font-size: 14px;
+          letter-spacing: 1.5px;
+          text-transform: uppercase;
+          width: 150px;
+          color: #000000;
+          background-color: #ffffff;
+        }
       }
 
-      .button {
-        text-align: center;
-        padding: 15px;
-        font-weight: 600;
-        border-radius: 50px;
-        font-size: 14px;
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-        width: 150px;
-        color: #000000;
-        background-color: #ffffff;
-      }
       .button:hover {
         color: gray;
       }
@@ -146,10 +146,13 @@ body {
     }
   }
   .featured {
-    margin-top: 100px;
-    height: 350px;
-
+    background-color: #fafafa;
+    margin-top: 80px;
+    margin-bottom: 20px;
     .back {
+      height: 400px;
+      position: relative;
+      background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
     }
@@ -159,13 +162,11 @@ body {
       padding-top: 20px;
       padding-left: 37px;
       color: white;
-      font-weight: 600;
+      font-weight: bold;
       border-radius: 50px;
-      font-size: 12px;
-      letter-spacing: 1.5px;
-      width: 260px;
-      height: 52px;
-      background-color: orange;
+      font-size: 16px;
+      letter-spacing: 1.0px;
+      background-color: #f68c1e;
     }
     .button:hover {
       background: darkorange;
@@ -230,11 +231,15 @@ body {
   }
 
   .references {
-    height: 300px;
-    background-color: #edeeef;
+h3{
+  font-weight: bolder;
+}
+    height: 320px;
+    background-color: #fafafa;
     text-align: center;
     display: flex;
     justify-content: center;
+    font-size: 22px;
     align-items: center;
     flex-direction: column;
   }
@@ -277,7 +282,7 @@ body {
   .map {
     margin-top: 20px;
     background-image: url("../img/bitmap9.png");
-    height: 600px;
+    height: 650px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -305,7 +310,7 @@ body {
           color: #ffffff;
           padding: 1rem;
           background: rgba(0, 0, 0, 0.65);
-          line-spacing: 0.4;
+          line-height: 0.4rem;
         }
       }
       .card:hover {
@@ -391,7 +396,6 @@ body {
 
 .conference_section {
   font-family: "Proxima Nova";
-  width: 1100px;
   margin: 20px auto;
 
   .slide-one {

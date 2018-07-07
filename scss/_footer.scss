@@ -25,6 +25,16 @@ body{
       margin-top: 40px;
 
       li{
+        h5{
+          font-size: 14px;
+          font-weight: bold;
+          line-height: 2rem;
+        }
+        a{
+          font-size: 14px;
+          line-height: 2px;
+
+        }
         a:hover{
           color: orange;
         }
@@ -33,6 +43,9 @@ body{
 
     .more_info{
       color: lightgrey;
+    }
+    .hr{
+      border-top: gray solid 1px;
     }
 
     .footer_hr{
